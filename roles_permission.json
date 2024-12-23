@@ -1,0 +1,102 @@
+{
+    "permissions": {
+        "1": "View account balance",
+        "2": "View investment portfolio",
+        "3": "Modify investment portfolio",
+        "4": "View Financial Advisor contact info",
+        "5": "View Financial Planner contact info",
+        "6": "View money market instruments",
+        "7": "View private consumer instruments"
+    },
+    "roles": {
+        "CLIENT": {
+            "permissions": [
+                1,
+                2,
+                4
+            ]
+        },
+        "PREMIUM_CLIENT": {
+            "permissions": [
+                1,
+                2,
+                4,
+                3,
+                5
+            ]
+        },
+        "FINANCIAL_ADVISOR": {
+            "permissions": [
+                1,
+                2,
+                3,
+                7
+            ]
+        },
+        "FINANCIAL_PLANNER": {
+            "permissions": [
+                1,
+                2,
+                3,
+                6,
+                7
+            ]
+        },
+        "TELLER": {
+            "permissions": [
+                1,
+                2
+            ],
+            "time_restriction": {
+                "start": 9,
+                "end": 17
+            }
+        }
+    },
+    "users": {
+        "sasha kim": {
+            "role": "CLIENT",
+            "username": "sasha45"
+        },
+        "emery blake": {
+            "role": "CLIENT",
+            "username": "emery7"
+        },
+        "noor abbasi": {
+            "role": "PREMIUM_CLIENT"
+        },
+        "zuri adebayo": {
+            "role": "PREMIUM_CLIENT"
+        },
+        "mikael chen": {
+            "role": "FINANCIAL_ADVISOR"
+        },
+        "jordan riley": {
+            "role": "FINANCIAL_ADVISOR"
+        },
+        "ellis nakamura": {
+            "role": "FINANCIAL_PLANNER"
+        },
+        "harper diaz": {
+            "role": "FINANCIAL_PLANNER"
+        },
+        "alex hayes": {
+            "role": "TELLER"
+        },
+        "adair patel": {
+            "role": "TELLER"
+        },
+        "john doe": {
+            "username": "johndoe",
+            "role": "TELLER"
+        },
+        "nivetha": {
+            "username": "nive02",
+            "role": "TELLER"
+        },
+        "nive": {
+            "username": "nive03",
+            "role": "TELLER"
+        }
+    }
+}

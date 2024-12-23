@@ -1,0 +1,5 @@
+johndoe:$2b$12$tKgYgySr58Pba8ZSZhBnJOVCWVG6To2o1liGpLo6mqdZ4fn7zbPf6
+sasha45:$2b$12$GDXagQWIA995CMonGsz2o.5A4xbJoifRMuqop2S2PhJWsm5sFqsAK
+emery7:$2b$12$ybdTav0l8X/pBN/5wIuU9ei6O27jO/Up6w4gDr2JmUyZQHjfp6FiO
+emery8:$2b$12$g6ed1eKhuyy4P2uxFVr3v.RTvEZcPkXndhWs54zL7T4fQAWGQtlZ6
+nive03:$2b$12$J7C0to5RSAAqJGcC4RRrQu8U4AlMrTqlRXRHLYEf.vHFhXpJWmS62
